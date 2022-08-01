@@ -1,5 +1,7 @@
 # Benchmark Results 
 
+```mqtt-bm-latency --broker tcp://127.0.0.1:1883 --count 25 --size 120000 --clients 1 --subqos 0 --pubqos 0 --format text```
+
 Best of 10 runs for each benchmark counted as result.
 
 ## 1000 Clients low length message spam (QoS 0)
